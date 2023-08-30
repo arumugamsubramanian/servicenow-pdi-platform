@@ -26,5 +26,6 @@
     "now.instance.host.url": "https://dev174754.service-now.com",
     "now.instance.OAuth.client.id": "",
     "now.instance.user.password": "••••••••••••",
-    "now.instance.OAuth.client.secret": ""
+    "now.instance.OAuth.client.secret": "",
+    "javascript.validate.enable": false
 }
