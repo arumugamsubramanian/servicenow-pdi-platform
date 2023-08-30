@@ -143,5 +143,18 @@
     "wf_element_activity": true,
     "wf_activity_definition": true,
     "wf_ui_policy": true
+  },
+  "Server Development": {
+    "Script Includes": {
+      "poc1": {
+        "sys_id": "57b026902f89f1101520351ef699b620",
+        "LIVE": false,
+        "UNCHANGED": true,
+        "CURRENT_SERVER_MOD_TIME": 1693361456000,
+        "sys_updated_on": "2023-08-30 07:40:56",
+        "SERVER_MOD_TIME": 1693361456000,
+        "LOCAL_MOD_TIME": 1693381408953
+      }
+    }
   }
 }
