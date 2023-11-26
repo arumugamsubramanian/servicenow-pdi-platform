@@ -14,12 +14,6 @@
     "html.customData": [
         "./lib/data/jelly_schema.json"
     ],
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#1D856D",
-        "statusBar.foreground": "#fff",
-        "activityBar.background": "#1D856D",
-        "activityBar.foreground": "#fff"
-    },
     "now.instance.authentication.type": "Basic",
     "editor.defaultFormatter": "HookyQR.beautify",
     "now.instance.user.name": "admin",
