@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Incident Data Fix Demo</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[function run() {
+	gs.info('aru-->');
+	// gs.log('aru-->');
+	// var gr = new GlideRecord('incident');
+	// gr.addQuery('number', 'INC0000601');
+	// gr.query();
+	// // Update the assignment group for each incident
+	// while (gr.next()) {
+	// 	gs.info('aru-->'+gr.getCategory);
+	// }
+		
+}
+run();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 14:37:05</sys_created_on>
+        <sys_id>04eb09382f72b5101520351ef699b605</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Incident Data Fix Demo</sys_name>
+        <sys_package display_value="ServiceNow PDI Platform" source="x_731903_serviceno">e4fe71182f45f1101520351ef699b6e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name>sys_script_fix_04eb09382f72b5101520351ef699b605</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 14:57:24</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

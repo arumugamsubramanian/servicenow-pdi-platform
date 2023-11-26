@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>get_current_date_from_script_include</internal_name>
+        <label_cache>[]</label_cache>
+        <master_snapshot>aaa659302ff2b5101520351ef699b66d</master_snapshot>
+        <name>Get Current Date From Script Include</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:17:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7455d3c2fb2b5101520351ef699b6fc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get Current Date From Script Include</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow PDI Platform" source="x_731903_serviceno">e4fe71182f45f1101520351ef699b6e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c7455d3c2fb2b5101520351ef699b6fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7455d3c2fb2b5101520351ef699b6fc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c7455d3c2fb2b5101520351ef699b6fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>c7455d3c2fb2b5101520351ef699b6fc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:16</sys_created_on>
+        <sys_id>12a659302ff2b5101520351ef699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:16</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">dea619302ff2b5101520351ef699b6ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>c7455d3c2fb2b5101520351ef699b6fc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:16</sys_created_on>
+        <sys_id>1aa659302ff2b5101520351ef699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:16</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">cea619302ff2b5101520351ef699b6fa</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_c7455d3c2fb2b5101520351ef699b6fc^id=c7455d3c2fb2b5101520351ef699b6fc"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=c7455d3c2fb2b5101520351ef699b6fc^sys_idNOT INcd36d9bc2fb2b5101520351ef699b6d6"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Current Date From Script Include">c7455d3c2fb2b5101520351ef699b6fc</action>
+        <cid>63920171-057d-4b92-a25b-c6e3278d70ef</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:21:17</sys_created_on>
+        <sys_id>cd36d9bc2fb2b5101520351ef699b6d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:21:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cd36d9bc2fb2b5101520351ef699b6d6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cd36d9bc2fb2b5101520351ef699b6d6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:21:17</sys_created_on>
+        <sys_id>0536d5fc2fb2b5101520351ef699b60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:21:17</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cd36d9bc2fb2b5101520351ef699b6d6</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:21:17</sys_created_on>
+        <sys_id>0d36d5fc2fb2b5101520351ef699b60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:21:17</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+    var flowActionUtil = new x_731903_serviceno.FDActionUtil();&#13;
+    var result = flowActionUtil.getCurrentDate();&#13;
+    gs.info("aru--&gt;"+result);&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=cd36d9bc2fb2b5101520351ef699b6d6"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=cd36d9bc2fb2b5101520351ef699b6d6"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=cd36d9bc2fb2b5101520351ef699b6d6"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=cd36d9bc2fb2b5101520351ef699b6d6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cd36d9bc2fb2b5101520351ef699b6d6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_cd36d9bc2fb2b5101520351ef699b6d6"/>
+    <sys_hub_action_input action="delete_multiple" query="model=c7455d3c2fb2b5101520351ef699b6fc"/>
+    <sys_hub_action_output action="delete_multiple" query="model=c7455d3c2fb2b5101520351ef699b6fc^sys_idNOT INcea619302ff2b5101520351ef699b6fa,dea619302ff2b5101520351ef699b6ff"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=12444ad3-9b99-4ebd-8790-f22b2772b381</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Current Date From Script Include">c7455d3c2fb2b5101520351ef699b6fc</model>
+        <model_id>c7455d3c2fb2b5101520351ef699b6fc</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c7455d3c2fb2b5101520351ef699b6fc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:16</sys_created_on>
+        <sys_id>cea619302ff2b5101520351ef699b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cea619302ff2b5101520351ef699b6fa"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cea619302ff2b5101520351ef699b6fa"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f8f311f4-fea7-404d-92de-6871ea653ba8,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Current Date From Script Include">c7455d3c2fb2b5101520351ef699b6fc</model>
+        <model_id>c7455d3c2fb2b5101520351ef699b6fc</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c7455d3c2fb2b5101520351ef699b6fc</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:16</sys_created_on>
+        <sys_id>dea619302ff2b5101520351ef699b6ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dea619302ff2b5101520351ef699b6ff"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dea619302ff2b5101520351ef699b6ff"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c7455d3c2fb2b5101520351ef699b6fc"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=c7455d3c2fb2b5101520351ef699b6fc^sys_idNOT IN0936d5fc2fb2b5101520351ef699b613"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Current Date From Script Include">c7455d3c2fb2b5101520351ef699b6fc</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:21:17</sys_created_on>
+        <sys_id>0936d5fc2fb2b5101520351ef699b613</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:21:17</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=0936d5fc2fb2b5101520351ef699b613"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c7455d3c2fb2b5101520351ef699b6fc"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_c7455d3c2fb2b5101520351ef699b6fc"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_c7455d3c2fb2b5101520351ef699b6fc^sys_idNOT IN12a619302ff2b5101520351ef699b6ff,9ea659302ff2b5101520351ef699b636"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c7455d3c2fb2b5101520351ef699b6fc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:16</sys_created_on>
+        <sys_id>12a619302ff2b5101520351ef699b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow PDI Platform" source="x_731903_serviceno">e4fe71182f45f1101520351ef699b6e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c7455d3c2fb2b5101520351ef699b6fc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:16</sys_created_on>
+        <sys_id>9ea659302ff2b5101520351ef699b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow PDI Platform" source="x_731903_serviceno">e4fe71182f45f1101520351ef699b6e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_c7455d3c2fb2b5101520351ef699b6fc"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=c7455d3c2fb2b5101520351ef699b6fc^sys_idNOT IN7ea699302ff2b5101520351ef699b61d"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get Current Date From Script Include">c7455d3c2fb2b5101520351ef699b6fc</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"7ea699302ff2b5101520351ef699b61d","name":"plan","plan_signature":null}}</plan>
+        <snapshot>a2a659302ff2b5101520351ef699b696</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ea699302ff2b5101520351ef699b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:19</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_current_date_from_script_include</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Get Current Date From Script Include</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Get Current Date From Script Include">c7455d3c2fb2b5101520351ef699b6fc</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aaa659302ff2b5101520351ef699b66d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:17</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=aaa659302ff2b5101520351ef699b66d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aaa659302ff2b5101520351ef699b66d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>aaa659302ff2b5101520351ef699b66d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:17</sys_created_on>
+        <sys_id>aea659302ff2b5101520351ef699b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:17</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">aaa659302ff2b5101520351ef699b67b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>aaa659302ff2b5101520351ef699b66d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:17</sys_created_on>
+        <sys_id>eaa659302ff2b5101520351ef699b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:17</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">22a659302ff2b5101520351ef699b680</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_aaa659302ff2b5101520351ef699b66d^id=aaa659302ff2b5101520351ef699b66d"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=aaa659302ff2b5101520351ef699b66d^sys_idNOT IN6ea659302ff2b5101520351ef699b671"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Current Date From Script Include">aaa659302ff2b5101520351ef699b66d</action>
+        <cid>63920171-057d-4b92-a25b-c6e3278d70ef</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:17</sys_created_on>
+        <sys_id>6ea659302ff2b5101520351ef699b671</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6ea659302ff2b5101520351ef699b671"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6ea659302ff2b5101520351ef699b671</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:17</sys_created_on>
+        <sys_id>a6a659302ff2b5101520351ef699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:17</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+    var flowActionUtil = new x_731903_serviceno.FDActionUtil();&#13;
+    var result = flowActionUtil.getCurrentDate();&#13;
+    gs.info("aru--&gt;"+result);&#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6ea659302ff2b5101520351ef699b671</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:17</sys_created_on>
+        <sys_id>e2a659302ff2b5101520351ef699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:17</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=6ea659302ff2b5101520351ef699b671"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6ea659302ff2b5101520351ef699b671"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6ea659302ff2b5101520351ef699b671"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6ea659302ff2b5101520351ef699b671"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6ea659302ff2b5101520351ef699b671"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_6ea659302ff2b5101520351ef699b671"/>
+    <sys_hub_action_input action="delete_multiple" query="model=aaa659302ff2b5101520351ef699b66d"/>
+    <sys_hub_action_output action="delete_multiple" query="model=aaa659302ff2b5101520351ef699b66d^sys_idNOT IN22a659302ff2b5101520351ef699b680,aaa659302ff2b5101520351ef699b67b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f8f311f4-fea7-404d-92de-6871ea653ba8,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Current Date From Script Include">aaa659302ff2b5101520351ef699b66d</model>
+        <model_id>aaa659302ff2b5101520351ef699b66d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_aaa659302ff2b5101520351ef699b66d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:17</sys_created_on>
+        <sys_id>22a659302ff2b5101520351ef699b680</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=22a659302ff2b5101520351ef699b680"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=22a659302ff2b5101520351ef699b680"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=12444ad3-9b99-4ebd-8790-f22b2772b381</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Current Date From Script Include">aaa659302ff2b5101520351ef699b66d</model>
+        <model_id>aaa659302ff2b5101520351ef699b66d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_aaa659302ff2b5101520351ef699b66d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:17</sys_created_on>
+        <sys_id>aaa659302ff2b5101520351ef699b67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=aaa659302ff2b5101520351ef699b67b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aaa659302ff2b5101520351ef699b67b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=aaa659302ff2b5101520351ef699b66d"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=aaa659302ff2b5101520351ef699b66d^sys_idNOT INeaa659302ff2b5101520351ef699b695"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Current Date From Script Include">aaa659302ff2b5101520351ef699b66d</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:18</sys_created_on>
+        <sys_id>eaa659302ff2b5101520351ef699b695</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:18</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=eaa659302ff2b5101520351ef699b695"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_aaa659302ff2b5101520351ef699b66d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_aaa659302ff2b5101520351ef699b66d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_aaa659302ff2b5101520351ef699b66d^sys_idNOT IN22a659302ff2b5101520351ef699b691,62a659302ff2b5101520351ef699b67f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_aaa659302ff2b5101520351ef699b66d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:17</sys_created_on>
+        <sys_id>22a659302ff2b5101520351ef699b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow PDI Platform" source="x_731903_serviceno">e4fe71182f45f1101520351ef699b6e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_aaa659302ff2b5101520351ef699b66d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-26 15:23:17</sys_created_on>
+        <sys_id>62a659302ff2b5101520351ef699b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceNow PDI Platform" source="x_731903_serviceno">e4fe71182f45f1101520351ef699b6e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-26 15:23:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_aaa659302ff2b5101520351ef699b66d"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>c7455d3c2fb2b5101520351ef699b6fc</sys_id>
+        <latest_snapshot>aaa659302ff2b5101520351ef699b66d</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
