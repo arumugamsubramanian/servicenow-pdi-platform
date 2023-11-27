@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_731903_serviceno.poc3</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>poc3</name>
+        <script><![CDATA[var poc3 = Class.create();
+poc3.prototype = {
+    initialize: function() {
+    },
+
+    type: 'poc3'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 18:14:01</sys_created_on>
+        <sys_id>e447cf8d2f3679101520351ef699b6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poc3</sys_name>
+        <sys_package display_value="ServiceNow PDI Platform" source="x_731903_serviceno">e4fe71182f45f1101520351ef699b6e5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
+        <sys_update_name>sys_script_include_e447cf8d2f3679101520351ef699b6c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 18:14:01</sys_updated_on>
+    </sys_script_include>
+</record_update>
