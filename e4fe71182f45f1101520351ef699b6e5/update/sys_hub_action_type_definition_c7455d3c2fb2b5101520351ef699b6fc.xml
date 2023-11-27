@@ -19,14 +19,14 @@
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-26 15:17:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c7455d3c2fb2b5101520351ef699b6fc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Get Current Date From Script Include</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceNow PDI Platform" source="x_731903_serviceno">e4fe71182f45f1101520351ef699b6e5</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_c7455d3c2fb2b5101520351ef699b6fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-26 15:23:18</sys_updated_on>
+        <sys_updated_on>2023-11-27 12:51:32</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -86,10 +86,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-26 15:21:17</sys_created_on>
         <sys_id>cd36d9bc2fb2b5101520351ef699b6d6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-26 15:21:17</sys_updated_on>
+        <sys_updated_on>2023-11-27 12:51:31</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cd36d9bc2fb2b5101520351ef699b6d6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -114,14 +114,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-26 15:21:17</sys_created_on>
         <sys_id>0d36d5fc2fb2b5101520351ef699b60f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-26 15:21:17</sys_updated_on>
+        <sys_updated_on>2023-11-27 12:51:31</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 &#13;
     var flowActionUtil = new x_731903_serviceno.FDActionUtil();&#13;
     var result = flowActionUtil.getCurrentDate();&#13;
     gs.info("aru--&gt;"+result);&#13;
+    outputs.month = result[2];&#13;
 &#13;
 })(inputs, outputs);&#13;
 </value>
@@ -287,14 +288,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-26 15:23:16</sys_created_on>
         <sys_id>dea619302ff2b5101520351ef699b6ff</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-26 15:23:16</sys_updated_on>
+        <sys_updated_on>2023-11-27 12:51:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
