@@ -11,6 +11,7 @@
 poc4.prototype = {
     initialize: function() {
 		gs.info("hello");
+		gs.info("hello");
 	},
 
     type: 'poc4'
@@ -21,13 +22,13 @@ poc4.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-27 18:17:44</sys_created_on>
         <sys_id>891807492f7679101520351ef699b6d2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>poc4</sys_name>
         <sys_package display_value="ServiceNow PDI Platform" source="x_731903_serviceno">e4fe71182f45f1101520351ef699b6e5</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="ServiceNow PDI Platform">e4fe71182f45f1101520351ef699b6e5</sys_scope>
         <sys_update_name>sys_script_include_891807492f7679101520351ef699b6d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-28 04:30:50</sys_updated_on>
+        <sys_updated_on>2023-11-28 04:32:36</sys_updated_on>
     </sys_script_include>
 </record_update>
